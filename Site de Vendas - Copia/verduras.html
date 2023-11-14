@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Super Mercado</title>
+</head>
+<body>
+    <header>
+        <h1>Mercado Lobinpidalve's</h1>
+        <p>Onde você encontra os melhores produtos!</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="pesquisa.html">Pesquisar</a></li>
+        </ul>
+    </nav>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Quantidade em Estoque</th>
+                <th>Quantidade Desejada</th>
+                <th>Valor</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Couve e Flor</td>
+                <td id="estoqueItem1">14</td>
+                <td id="quantidadeItem1">0</td>
+                <td id="valorItem1">5.99</td> 
+                <td><button onclick="adicionarItem(1)">Adicionar</button></td>
+            </tr>
+            <tr>
+                <td>Brócolis</td>
+                <td id="estoqueItem2">45</td>
+                <td id="quantidadeItem2">0</td>
+                <td id="valorItem2">8.99</td>
+                <td><button onclick="adicionarItem(2)">Adicionar</button></td>
+            </tr>
+            <tr>
+                <td>Batata</td>
+                <td id="estoqueItem3">50</td>
+                <td id="quantidadeItem3">0</td>
+                <td id="valorItem3">10.99</td>
+                <td><button onclick="adicionarItem(3)">Adicionar</button></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
